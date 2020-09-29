@@ -34,16 +34,16 @@ var photoSchema = new mongoose.Schema({
 
 var Photo = mongoose.model("Photo", photoSchema);
 
-Event.create({
-    title: "First Meeting",
-    imagelink: "https://lh3.googleusercontent.com/Gx7tvQ49EKWZUMnRgFR1fFwyJwfucSaq9AXU2Ihae1rpPup59qSFO79uMILFQIrP14FtXP4eY2FQ2F9gh4wgcqy3FFtd5bC5tqGm0_9Emq8P61IUgYwXbZ7Bmnv9XC8bRvHu3iQHrw=w2400",
-    description: "Our first meeting happened on September 16, 2020. A great start to a new year!"
-});
+// Event.create({
+//     title: "First Meeting",
+//     imagelink: "https://lh3.googleusercontent.com/Gx7tvQ49EKWZUMnRgFR1fFwyJwfucSaq9AXU2Ihae1rpPup59qSFO79uMILFQIrP14FtXP4eY2FQ2F9gh4wgcqy3FFtd5bC5tqGm0_9Emq8P61IUgYwXbZ7Bmnv9XC8bRvHu3iQHrw=w2400",
+//     description: "Our first meeting happened on September 16, 2020. A great start to a new year!"
+// });
 
-Photo.create({
-    image: "https://lh3.googleusercontent.com/Gx7tvQ49EKWZUMnRgFR1fFwyJwfucSaq9AXU2Ihae1rpPup59qSFO79uMILFQIrP14FtXP4eY2FQ2F9gh4wgcqy3FFtd5bC5tqGm0_9Emq8P61IUgYwXbZ7Bmnv9XC8bRvHu3iQHrw=w2400",
-    caption: "Our first meeting happened on September 16, 2020. A great start to a new year!"
-});
+// Photo.create({
+//     image: "https://lh3.googleusercontent.com/Gx7tvQ49EKWZUMnRgFR1fFwyJwfucSaq9AXU2Ihae1rpPup59qSFO79uMILFQIrP14FtXP4eY2FQ2F9gh4wgcqy3FFtd5bC5tqGm0_9Emq8P61IUgYwXbZ7Bmnv9XC8bRvHu3iQHrw=w2400",
+//     caption: "Our first meeting happened on September 16, 2020. A great start to a new year!"
+// });
 
 
 app.get("/", function(req, res){
