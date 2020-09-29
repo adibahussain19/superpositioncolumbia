@@ -5,15 +5,7 @@ var express                 = require("express"),
     methodOverride          = require("method-override"),
     flash                   = require("connect-flash");
 
-// mongoose.connect('mongodb://localhost:27017/superposition', {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-//   useFindAndModify: false
-// })
-// .then(() => console.log('Connected to DB!'))
-// .catch(error => console.log(error.message));
-
-mongoose.connect('mongodb+srv://adibahussain19:SPcolumbia2020@spcluster.zkxph.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect(process.env.DATABASEURL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
