@@ -70,6 +70,6 @@ app.get("/home", function(req, res){
     });
 });
 
-app.listen((4040), function(req,res){
+app.listen((process.env.PORT || 4040), function(req,res){
     console.log("Superposition Site has started");
 });
