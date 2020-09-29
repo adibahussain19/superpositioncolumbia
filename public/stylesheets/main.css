@@ -23,6 +23,13 @@ p {
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "Now";
+    font-family: "Playlist";
+    src: url("now.bold.otf");
+    src: url("Playlist\ Script.otf");
+}
+
 /* navbar */
 
 .navbar {
